@@ -11,7 +11,7 @@ int main()
         scanf("%d", &arr[i]);
     }
   
-  	for(int i = 0; i < size; i++){
+  	for(int i = 0; i < size-1; i++){
       for(int j = i + 1; j <size; j++){
         for(int k = j + 1; k <size; k++){
           printf("(%d, %d, %d) ",arr[i],arr[j],arr[k]);
